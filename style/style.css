@@ -1,11 +1,10 @@
 * {
-    font-family: 'Montserrat', ;
+    font-family: "Montserrat";
     padding: 0;
-
 }
 
 h1 h2 h3 h4 h5 h6 {
-    font-family: 'Montserrat', ;
+    font-family: "Montserrat";
 }
 
 .row {
@@ -17,11 +16,14 @@ p {
     font-size: 16px;
     color: #494949;
     line-height: auto;
-    font-family: 'Montserrat', ;
+    font-family: "Montserrat";
 }
-
+.navbar{
+    padding-left: 0;
+    
+}
 .navbar-nav {
-    margin-left: 250px;
+    margin-left: 30%;
 }
 
 .nav-link {
@@ -30,7 +32,7 @@ p {
 }
 
 .navbar-brand {
-    margin-left: 223px;
+    margin-left: 10%;
     font-weight: bold;
 }
 
@@ -39,7 +41,7 @@ p {
     border-radius: 24px;
     width: 120px;
     margin-left: 48px;
-    background-color: #57BE7E;
+    background-color: #57be7e;
     border: none;
     box-shadow: 0px 7px 24px rgba(42, 97, 63, 0.2);
 }
@@ -50,12 +52,12 @@ p {
 
 #banner div {
     margin-top: 156px;
-    width: 494px;
-    margin-left: 223px;
+    padding-left: 20%;
 }
 
 #banner div button {
-    background-color: #57BE7E;
+    height: 36px;
+    background-color: #57be7e;
     border: none;
     font-size: 16px;
     margin-top: 20px;
@@ -64,17 +66,18 @@ p {
 }
 
 #banner-img {
-    width: 703.58px;
+    width: 100%;
 }
 
 #banner div h1 {
     font-size: 48px;
     line-height: 59px;
-    color: #57BE7E;
+    color: #57be7e;
 }
 
 #second-section {
-    margin-top: 60px;
+    width: 75%;
+    margin: 10% auto;
 }
 
 #section-heading {
@@ -83,12 +86,12 @@ p {
 }
 
 .grid-item {
-    width: 215px;
-    height: 230px;
-    background: #57BE7E;
-    border-radius: 20px;
-    display: inline-block;
-    /* margin-left: 16px; */
+    float: left;
+    width: calc((100% / 4) - 20px);
+    background-color: #57be7e;
+    border-radius: 24px;
+    margin-right: 20px;
+    padding: 20px;
 }
 
 .grid-item:hover {
@@ -96,14 +99,10 @@ p {
 }
 
 .grid-container {
-    display: inline-grid;
-    grid-gap: 20px;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: 200px;
-    justify-content: center;
-    align-content: center;
-    margin-left: 223px;
-    margin-top: 20px;
+    float: left;
+    width: 100%;
+    margin: 20% auto;
+    margin-top: 54px;
 }
 
 #card-circle {
@@ -111,8 +110,6 @@ p {
     height: 50px;
     border-radius: 50%;
     background-color: white;
-    margin-top: 20px;
-    margin-left: 30px;
 }
 
 #card-circle:hover {
@@ -120,14 +117,12 @@ p {
 }
 
 #cards h4 {
-    margin-left: 30px;
     margin-top: 20px;
     color: white;
     font-size: 18px;
 }
 
 #cards p {
-    margin-left: 30px;
     margin-top: 10px;
     color: white;
     font-size: 14px;
@@ -144,8 +139,14 @@ p>a {
     text-align: center;
 }
 
+section.hero {
+    width: 100%;
+    margin: auto;
+}
+
 #third-section {
-    margin-top: 100px;
+    width: 75%;
+    margin: 20% auto;
 }
 
 #third-section {
@@ -160,19 +161,18 @@ p>a {
     grid-template-rows: 230px 230px;
     justify-content: center;
     align-content: center;
-    margin-left: 223px;
+
     margin-top: 20px;
 }
 
 #grid-item-2 {
-    width: 215px;
+    /* width: 215px; */
     height: 230px;
-
 }
 
 #grid-item-2 div {
     /* margin-left:30px; */
-    color: #494949
+    color: #494949;
 }
 
 #grid-item-2 div h4 {
@@ -188,13 +188,12 @@ p>a {
 
 #grid-item-2 div img {
     margin-top: 10px;
-    margin-left: 10px
+    margin-left: 10px;
 }
 
 #grid-item-2-p1 {
     font-size: 14px;
     color: #494949;
-
 }
 
 #grid-container-3 {
@@ -204,16 +203,12 @@ p>a {
     grid-template-rows: 230px;
     justify-content: center;
     align-content: center;
-    margin-left: 184px;
-    margin-top: 20px;
-
 }
 
 .grid-item-1 {
-    width: 958px;
+    width: 100%;
     height: 180px;
-    background: #FAFAFA;
-    margin-left: 183px;
+    background: #fafafa;
     text-align: center;
     padding-top: 30px;
     margin-top: 20px;
@@ -221,7 +216,7 @@ p>a {
 
 .grid-item-1>button {
     border-radius: 20px;
-    background-color: #57BE7E;
+    background-color: #57be7e;
     border: none;
     box-shadow: 0px 8px 24px rgba(42, 97, 63, 0.2);
 }
@@ -235,7 +230,7 @@ footer {
     width: 100%;
     height: 184px;
     left: 0px;
-    background: #57BE7E;
+    background: #57be7e;
     overflow: hidden;
     margin-top: 50px;
     padding-top: 50px;
@@ -256,147 +251,4 @@ footer p {
     font-size: 14px;
 
     text-align: center;
-}
-
-
-/* RESPONSIVENESS */
-@media only screen and (max-width: 415px) {
-
-    /* For mobile phones: */
-    .navbar-brand {
-        margin-left: 0px;
-
-    }
-
-    .navbar-nav {
-        margin-left: 200px;
-    }
-
-    #banner div {
-        margin-top: 80px;
-        width: 280px;
-        margin-left: 30px;
-    }
-
-    #banner div h1 {
-        font-size: 36px;
-        line-height: 40px;
-        color: #57BE7E;
-    }
-
-    #banner div p {
-        line-height: 24px;
-        margin-top: 20px;
-    }
-
-    #banner-img {
-        width: 250px;
-        height: auto;
-        margin-left: 30px;
-    }
-
-    #section-heading {
-        text-align: center;
-        font-size: 18px;
-        /* width: 280px; */
-    }
-
-    #sub-heading {
-        text-align: center;
-        /* width:280px */
-    }
-
-    .grid-container {
-        display: inline-grid;
-        grid-gap: 50px;
-        grid-template-columns: auto;
-        grid-template-rows: 200px;
-        justify-content: center;
-        align-content: center;
-        margin-left: 0px;
-        margin-top: 20px;
-    }
-
-    .grid-item {
-        margin-left: 80px;
-    }
-
-    .grid-container2 {
-        display: inline-grid;
-        grid-gap: 20px;
-        grid-template-columns: auto;
-        grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px;
-        justify-content: center;
-        align-content: center;
-        margin-left: 30px;
-        margin-top: 20px;
-    }
-
-    .grid-item-1 {
-        width: 300px;
-        height: 200px;
-        background: #FAFAFA;
-        margin-left: 35px;
-        text-align: center;
-        padding-top: 30px;
-        margin-top: 20px;
-    }
-
-    #grid-item-2 {
-        /* width: 215px;
-    height: 230px; */
-        margin-left: 50px
-    }
-
-    #grid-item-2 div img {
-        margin-top: 10px;
-        margin-left: 55px;
-    }
-
-    #grid-item-2 div h4 {
-        font-size: 18px;
-        margin-top: 5px;
-        text-align: center;
-    }
-
-    .grid-item-1>h4 {
-        font-size: 18px;
-        /* margin-left: 30px; */
-        text-align: center;
-    }
-
-    .grid-item-1>p {
-        font-size: 14px;
-        /* margin-left: 30px; */
-        text-align: center;
-
-    }
-
-    footer {
-        width: 415px;
-        height: 184px;
-        left: 0px;
-        background: #57BE7E;
-        overflow: hidden;
-        margin-top: 50px;
-        padding-top: 50px;
-    }
-
-    footer div {
-        margin-left: 23%;
-        display: inline-block;
-    }
-
-    footer div a {
-        margin-left: 20px;
-        display: inline-block;
-    }
-
-    h1 h4 {
-        font-weight: bolder;
-    }
-
-    #btn-sign-up {
-        margin-left: 20px
-    }
 }
